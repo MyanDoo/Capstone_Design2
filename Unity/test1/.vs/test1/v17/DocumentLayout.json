@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\test1\\assets\\scripts\\chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\test1\\assets\\scripts\\fadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\assets\\scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\assets\\scripts\\chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FadeController.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\FadeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FadeController.cs",
+              "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\FadeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FadeController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T20:41:55.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI.cs",
+              "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:54:03.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
+              "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwEgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:35:11.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ChatGPT.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\test1\\Assets\\Scripts\\ChatGPT.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChatGPT.cs",
@@ -26,8 +77,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ChatGPT.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAQwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:26:46.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T11:26:46.306Z"
             }
           ]
         }
