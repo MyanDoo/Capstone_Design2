@@ -42,10 +42,6 @@ public class CharacterMove : MonoBehaviour
 
         }
 
-        if(collision.gameObject.name == "Wall_right_end")
-        {
-            //
-        }
     }
 
     public void EndSceneCall()

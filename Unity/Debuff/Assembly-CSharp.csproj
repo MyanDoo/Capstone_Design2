@@ -57,10 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\LogoMoveXY.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\CharacterMove.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\LogoMoveXY.cs" />
+    <Compile Include="Assets\Scripts\OpeningBackgroundImage.cs" />
+    <Compile Include="Assets\Scripts\BackgroundScrolling.cs" />
+    <Compile Include="Assets\Scripts\BackgroundRepeater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
