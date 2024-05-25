@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: dc11c8a2546d29b489dc5c54ab820e0e
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: bc5dc8e81e23a164e83d48fa2d827f3c
+  - enabled: 1
+    path: Assets/Scenes/City1.unity
+    guid: 39936f0e93655c34a99f14c1e63ff4a3
+  - enabled: 1
+    path: Assets/Scenes/Tunnel.unity
+    guid: 203f0aa77b4397c499f6d8fd775cc4ad
+  - enabled: 1
+    path: Assets/Scenes/Bridge1.unity
+    guid: 0efa17d3cea4f8f43ab0f1fe00265931
+  - enabled: 1
+    path: Assets/Scenes/OldCity1.unity
+    guid: a8440f9b32731244e9bf3b3ba799f754
+  - enabled: 1
+    path: Assets/Scenes/Bridge2.unity
+    guid: ab56f7ea20ccad241b2bc86f3d00f254
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 706495ab9944e5f4f92a90eb8ffa6391
+  m_configObjects: {}

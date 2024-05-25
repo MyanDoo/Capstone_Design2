@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\debuff.2\\assets\\scripts\\chatting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\p_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\p_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chatting.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\Chatting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chatting.cs",
+              "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\Chatting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chatting.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:27:53.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "P_Move.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\P_Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\P_Move.cs",
+              "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\P_Move.cs",
+              "RelativeToolTip": "Assets\\Scripts\\P_Move.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAwwJgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:00:21.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
