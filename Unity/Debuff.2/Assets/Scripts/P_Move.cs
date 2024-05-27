@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class P_Move : MonoBehaviour
 {
+    public static P_Move instance { get; private set; }
+
     public float moveSpeed = 5f; // 캐릭터 이동 속도
     public float jumpPwoer = 10f; //점프 힘
 
@@ -17,7 +19,7 @@ public class P_Move : MonoBehaviour
 
     private Vector3 originalScale; //스케일고정
 
-    private bool isMovementStopped = false; // 움직임이 멈췄는지 여부
+    public bool isMovementStopped = false; // 움직임이 멈췄는지 여부
 
     public GameObject _wall_right; //오른쪽 벽을 오브젝트로 가져옴
 
@@ -26,9 +28,11 @@ public class P_Move : MonoBehaviour
     
 
 
-
     void Start()
     {
+        if (instance != null) Destroy(this);
+        else instance = this;
+
         // 캐릭터의 Rigidbody 컴포넌트 가져오기
         rb = GetComponent<Rigidbody>();
         // 캐릭터의 Animator 컴포넌트 가져오기
@@ -41,7 +45,6 @@ public class P_Move : MonoBehaviour
 
         //다음맵 넘어가는 UI 닫아놓기
         NextMapButtonImage.SetActive(false);
-
     }
 
     
@@ -49,18 +52,19 @@ public class P_Move : MonoBehaviour
     // 키보드에서 손을 뗐을 때 완전 stop
     void Update()
     {
+        CharacterMove();
+    }
+
+    public void ChattingCloseButtonClick()
+    {
+        Chatting.instance.ChattingOff();
+
         if (isMovementStopped)
         {
-            // 화면 클릭시 움직임 재개
-            if (Input.GetMouseButtonDown(0))
-            {
-                //대화창 전부 꺼주기
-                Chatting.instance.ChattingOff();
-                isMovementStopped = false;
-            }
-            return;
+            //대화창 전부 꺼주기
+            Chatting.instance.ChattingOff();
+            isMovementStopped = false;
         }
-        CharacterMove();
     }
 
     public void CharacterMove()
@@ -145,7 +149,8 @@ public class P_Move : MonoBehaviour
             animator.SetBool("isWalking", false);
             //터널 대화창1 오픈
             Chatting.instance.tunnel_Player_Chatting_Img1.SetActive(true);
-            Chatting.instance.TextSend(); //텍스트 초기화 작업 함수 호출
+            Chatting.instance.ChattingCloseButton.SetActive(true);
+            Chatting.instance.TextSend_tunnel1(); //텍스트 초기화 작업 함수 호출
 
         }
 
@@ -159,8 +164,19 @@ public class P_Move : MonoBehaviour
             animator.SetBool("isWalking", false);
             //터널 대화창2 오픈
             Chatting.instance.tunnel_Player_Chatting_Img2.SetActive(true);
-            Chatting.instance.TextSend();
+            Chatting.instance.ChattingCloseButton.SetActive(true);
+            Chatting.instance.TextSend_tunnel2();
         }
+    }
+
+    public void NoButtonClick()
+    {
+        NextMapButtonImage.SetActive(false);
+    }
+
+    public void EndSceneCall()
+    {
+        NextMapButtonImage.SetActive(true);
     }
 }
 
