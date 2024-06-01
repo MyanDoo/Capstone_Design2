@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public static SceneLoader instance { get; private set; }
+
     public Animator animator;
     [SerializeField] private int SceneNum = 0;
 
@@ -25,6 +27,7 @@ public class SceneLoader : MonoBehaviour
             Debug.Log("animator이 null임");
     }
 
+    //애니메이션 이벤트에 걸어둔 함수라 참조가 없는 것이 맞음
     IEnumerator OnSceneLoad()
     {
         yield return new WaitForSecondsRealtime(2f);
@@ -32,11 +35,12 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(SceneNum);
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        if (instance != null) Destroy(this);
+        else instance = this;
     }
+
 
     // Update is called once per frame
     void Update()

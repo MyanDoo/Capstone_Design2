@@ -362,6 +362,7 @@
 "Assets/Scripts/P_Move.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/ScrollView.cs"
+"Assets/Scripts/Telephone.cs"
 -langversion:9.0
 
 /deterministic

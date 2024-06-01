@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\debuff.2\\assets\\scripts\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\p_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\p_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\debuff.2\\assets\\scripts\\endingtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\camerazoomout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerazoomout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\debuff.2\\assets\\scripts\\camerazoomout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerazoomout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|c:\\users\\gksql\\repo\\capstone_design2\\unity\\debuff.2\\assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\endingtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B53BC6F-6136-E67D-F473-94407E6ED337}|Assembly-CSharp.csproj|C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\assets\\scripts\\scrollview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Telephone.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\Telephone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Telephone.cs",
+              "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\Telephone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Telephone.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwCcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T15:41:52.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EndingText.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\EndingText.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndingText.cs",
@@ -54,8 +71,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EndingText.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T08:08:49.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T08:08:49.576Z"
             },
             {
               "$type": "Document",
@@ -65,14 +81,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraZoomOut.cs",
               "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\CameraZoomOut.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraZoomOut.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAiwC4AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T14:07:34.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ScrollView.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\ScrollView.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScrollView.cs",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CharacterMove.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\CharacterMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMove.cs",
@@ -92,24 +108,24 @@
               "RelativeToolTip": "Assets\\Scripts\\CharacterMove.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAIwAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T13:43:42.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T13:43:42.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
               "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\SceneLoader.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T11:36:25.177Z"
+              "WhenOpened": "2024-05-25T11:36:25.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AI.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\AI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI.cs",
@@ -122,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Chatting.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\Chatting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Chatting.cs",
@@ -134,13 +150,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "P_Move.cs",
               "DocumentMoniker": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\P_Move.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\P_Move.cs",
               "ToolTip": "C:\\Users\\gksql\\repo\\Capstone_Design2\\Unity\\Debuff.2\\Assets\\Scripts\\P_Move.cs",
               "RelativeToolTip": "Assets\\Scripts\\P_Move.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAqwJwAAAAtAAAA",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAQwJwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T12:00:21.119Z",
               "EditorCaption": ""
