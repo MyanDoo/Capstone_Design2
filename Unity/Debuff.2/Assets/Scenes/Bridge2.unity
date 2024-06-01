@@ -709,6 +709,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 964f02713189978499c86251f3bbed6d, type: 3}
+--- !u!1001 &686570285
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 112976964136546512, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_Name
+      value: miniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115014292101832129, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643982306918947359, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_Name
+      value: 95%
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181540843412806864, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1105170601, guid: 2cbb059c0bb41934fb17c7f2316bdb16, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
 --- !u!1 &754562672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1209,32 @@ RectTransform:
   m_AnchoredPosition: {x: 1.3, y: 0.2}
   m_SizeDelta: {x: 935, y: 526}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1123727396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1643982306918947359, guid: 67c8aad38d04d11469f35e38bf9aa1b9, type: 3}
+  m_PrefabInstance: {fileID: 686570285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1123727398
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123727396}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: affd6c081a0435b44ab4c40e18b02231, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1150657037
 PrefabInstance:
   m_ObjectHideFlags: 0

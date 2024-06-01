@@ -3,6 +3,7 @@ using UnityEngine;
 using OpenAI;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class AI : MonoBehaviour
 {
@@ -13,7 +14,8 @@ public class AI : MonoBehaviour
 
     public GameObject AIquestion;
     public GameObject AIanswer;
-
+    public ScrollRect scrollRect;
+    public TMP_Text contentText;
 
     public TMP_Text printAiText;
     public TMP_InputField inputField;
@@ -24,9 +26,6 @@ public class AI : MonoBehaviour
     public GameObject AiMenuButton;
     public GameObject AiNotice;
     public GameObject AiClose;
-
-    //public GameObject Player;
-    private P_Move playerMove; // P_Move 스크립트 참조를 위한 변수
 
 
     private void Awake()
@@ -39,6 +38,8 @@ public class AI : MonoBehaviour
         //AIanswer.SetActive(false); //나중에 수정할 것임
         AiNotice.SetActive(false);
         AiClose.SetActive(false);
+
+        scrollRect.onValueChanged.AddListener(OnScroll); // 스크롤 이벤트 리스너 추가
     }
 
     public void AiMenuButtonClick()
@@ -56,6 +57,7 @@ public class AI : MonoBehaviour
         AIanswer.SetActive(false);
         AIquestion.SetActive(false);
         AiClose.SetActive(false);
+        printAiText.text = "";
     }
 
     //AI 이미지에 달려있는 버튼 클릭시 발생할 이벤트 함수
@@ -97,11 +99,29 @@ public class AI : MonoBehaviour
             messages.Add(chatResponse);
 
             Debug.Log(chatResponse.Content);
+
+            //contentText.text = chatResponse.Content;
             printAiText.text = chatResponse.Content; //openAI 대답을 text에 출력
+            printAiText.text = contentText.text;
+
+            // Content 크기 조절 (예: 텍스트 라인의 수에 따라 높이 조절)
+            RectTransform contentRectTransform = printAiText.GetComponent<RectTransform>();
+            contentRectTransform.sizeDelta = new Vector2(contentRectTransform.sizeDelta.x, printAiText.preferredHeight);
+
+            // 스크롤 위치 초기화
+            scrollRect.verticalNormalizedPosition = 1.0f;
+
+            // 강제로 레이아웃 업데이트
+            Canvas.ForceUpdateCanvases();
         }
     }
 
-    
+    private void OnScroll(Vector2 position)
+    {
+        // 스크롤 이벤트가 API 요청을 트리거하지 않도록 하는 빈 메서드
+        // 필요시 추가 로직 작성 가능
+    }
+
 
     // Update is called once per frame
     void Update()

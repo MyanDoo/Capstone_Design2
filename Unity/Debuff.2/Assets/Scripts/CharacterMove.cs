@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CharacterMove : MonoBehaviour
 {
+
     //float _movespeed = 6f;
     public GameObject _wall_right; //오른쪽 벽을 오브젝트로 가져옴
 
