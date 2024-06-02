@@ -70,7 +70,7 @@ public class P_Move : MonoBehaviour
     public void CharacterMove()
     {
         //점프
-        if (Input.GetButtonDown("Jump") && !animator.GetBool("isJumping"))
+        if (Input.GetKey(KeyCode.W) && !animator.GetBool("isJumping"))
         {
             rb.AddForce(Vector2.up * jumpPwoer, ForceMode.Impulse);
             animator.SetBool("isJumping", true);
@@ -112,7 +112,7 @@ public class P_Move : MonoBehaviour
         {
             rb.AddForce(Vector3.down * fallMultiplier, ForceMode.Acceleration);
         }
-        else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+        else if (rb.velocity.y > 0 && !Input.GetKey(KeyCode.W))
         {
             rb.AddForce(Vector3.down * lowJumpMultiplier, ForceMode.Acceleration);
         }

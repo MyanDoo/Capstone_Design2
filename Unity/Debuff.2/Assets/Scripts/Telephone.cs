@@ -18,6 +18,8 @@ public class Telephone : MonoBehaviour
     string number = "15449030";
     string totalNum = "";
 
+    private AudioSource audioSource;
+
     public void OnNumberButtonClick(GameObject button)
     {
         // 버튼의 이름을 숫자로 간주하고 currentNum에 추가
@@ -40,6 +42,7 @@ public class Telephone : MonoBehaviour
         if (totalNum == number)
         {
             SceneLoader.instance.Wait();
+            audioSource.Play();
             //SceneManager.LoadScene("Ending");
         }
         else if (totalNum != number)
@@ -57,6 +60,7 @@ public class Telephone : MonoBehaviour
     public void Awake()
     {
         TelephoneButtons.SetActive(false);
+        audioSource = GetComponent<AudioSource>();
     }
 
 }

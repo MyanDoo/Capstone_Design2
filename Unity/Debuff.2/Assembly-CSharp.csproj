@@ -65,12 +65,12 @@
     <Compile Include="Assets\Scripts\BackgroundRepeater.cs" />
     <Compile Include="Assets\Scripts\ScrollView.cs" />
     <Compile Include="Assets\Scripts\EndingText.cs" />
+    <Compile Include="Assets\Scripts\Telephone.cs" />
     <Compile Include="Assets\Scripts\P_Move.cs" />
     <Compile Include="Assets\Scripts\CharacterMove.cs" />
     <Compile Include="Assets\Scripts\BackgroundScrolling.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Chatting.cs" />
-    <Compile Include="Assets\Scripts\Telephone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
