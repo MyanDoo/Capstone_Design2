@@ -20,13 +20,11 @@ public class AI : MonoBehaviour
     public TMP_Text printAiText;
     public TMP_InputField inputField;
 
-    //private bool isAsking = false;
     [SerializeField] private int AskingCount = 7;
 
     public GameObject AiMenuButton;
     public GameObject AiNotice;
     public GameObject AiClose;
-
 
     private void Awake()
     {
@@ -35,7 +33,7 @@ public class AI : MonoBehaviour
 
         AIquestion.SetActive(false);
         AIanswer.SetActive(false); 
-        //AIanswer.SetActive(false); //나중에 수정할 것임
+        AIanswer.SetActive(false); //나중에 수정할 것임
         AiNotice.SetActive(false);
         AiClose.SetActive(false);
 
@@ -93,7 +91,7 @@ public class AI : MonoBehaviour
 
         var response = await openAI.CreateChatCompletion(request);
 
-        if(response.Choices != null && response.Choices.Count > 0)
+        if (response.Choices != null && response.Choices.Count > 0)
         {
             var chatResponse = response.Choices[0].Message;
             messages.Add(chatResponse);
@@ -132,13 +130,5 @@ public class AI : MonoBehaviour
             AIquestion.SetActive(true);
             printAiText.text = ""; //다음 답변을 위해 공백으로 비워둠
         }
-
-        //=================================================================
-        //설명 주석
-        //화면 클릭하면 대화창 닫게하는건 instance로 Chatting.cs에 구현해놓음.
-            //도시1
-            //AI.instance.AIanswer.SetActive(false);
-            //AI.instance.AIquestion.SetActive(false);
-        //=================================================================
     }
 }

@@ -25,9 +25,6 @@ public class P_Move : MonoBehaviour
 
     public GameObject NextMapButtonImage; //다음 씬으로 넘어가는 UI 호출
 
-    
-
-
     void Start()
     {
         if (instance != null) Destroy(this);
@@ -46,8 +43,6 @@ public class P_Move : MonoBehaviour
         //다음맵 넘어가는 UI 닫아놓기
         NextMapButtonImage.SetActive(false);
     }
-
-    
 
     // 키보드에서 손을 뗐을 때 완전 stop
     void Update()
@@ -139,7 +134,7 @@ public class P_Move : MonoBehaviour
     //(일단은)터널맵에서 벽과 충돌했을때  
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "tunnel1")
+        if (other.gameObject.tag == "tunnel1")
         {
             Debug.Log("터널 벽1과 충돌함");
 
@@ -154,7 +149,7 @@ public class P_Move : MonoBehaviour
 
         }
 
-        if(other.gameObject.tag == "tunnel2")
+        if (other.gameObject.tag == "tunnel2")
         {
             Debug.Log("터널 벽2와 충돌함");
 
@@ -169,7 +164,7 @@ public class P_Move : MonoBehaviour
         }
     }
 
-    public void NoButtonClick()
+    public void closeButton()
     {
         NextMapButtonImage.SetActive(false);
     }

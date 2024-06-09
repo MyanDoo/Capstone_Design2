@@ -57,20 +57,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraZoomOut.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\Obj_board.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Map2_OldCity\Obj_ammonia.cs" />
+    <Compile Include="Assets\Scripts\Map2_OldCity\Talk.cs" />
+    <Compile Include="Assets\Scripts\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\CityAiNPCTextOne.cs" />
+    <Compile Include="Assets\Scripts\Opening\Menu.cs" />
     <Compile Include="Assets\Scripts\AI.cs" />
+    <Compile Include="Assets\Scripts\Map2_OldCity\OldCityObj_wall.cs" />
     <Compile Include="Assets\Scripts\OpeningBackgroundImage.cs" />
     <Compile Include="Assets\Scripts\LogoMoveXY.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\BackgroundRepeater.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\Obj_water.cs" />
     <Compile Include="Assets\Scripts\ScrollView.cs" />
+    <Compile Include="Assets\Scripts\Map2_Bridge\Obj_Bridge2.cs" />
+    <Compile Include="Assets\Scripts\Map1_Forest\AiNPCText.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\Obj_wall.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\CityAiNPCTextTwo.cs" />
     <Compile Include="Assets\Scripts\EndingText.cs" />
     <Compile Include="Assets\Scripts\Telephone.cs" />
     <Compile Include="Assets\Scripts\P_Move.cs" />
     <Compile Include="Assets\Scripts\CharacterMove.cs" />
+    <Compile Include="Assets\Scripts\ButtonLight.cs" />
     <Compile Include="Assets\Scripts\BackgroundScrolling.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\LightOn.cs" />
+    <Compile Include="Assets\Scripts\Map2_Bridge\Call.cs" />
+    <Compile Include="Assets\Scripts\TunnelScript.cs" />
+    <Compile Include="Assets\Scripts\Map2_Bridge\Obj_Bridge.cs" />
+    <Compile Include="Assets\Scripts\Map2_OldCity\OldCityObj_board.cs" />
+    <Compile Include="Assets\Scripts\Map1_Forest\StartGuide.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\Obj_Door.cs" />
     <Compile Include="Assets\Scripts\Chatting.cs" />
+    <Compile Include="Assets\Scripts\Map1_City\Obj_streetlamp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -758,9 +779,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="OpenAI.Editor">
       <HintPath>Library\ScriptAssemblies\OpenAI.Editor.dll</HintPath>

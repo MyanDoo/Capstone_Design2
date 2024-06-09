@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 607281825484304573}
   - component: {fileID: 3400308777155596806}
   - component: {fileID: 6229228786423212024}
-  - component: {fileID: 7093101377937669366}
+  - component: {fileID: 4708029678687348960}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -125,6 +125,9 @@ MonoBehaviour:
   jumpPwoer: 7
   fallMultiplier: 1
   lowJumpMultiplier: 2
+  isMovementStopped: 0
+  _wall_right: {fileID: 0}
+  NextMapButtonImage: {fileID: 0}
 --- !u!54 &6229228786423212024
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -141,8 +144,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 72
   m_CollisionDetection: 0
---- !u!136 &7093101377937669366
-CapsuleCollider:
+--- !u!65 &4708029678687348960
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,7 +154,6 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.0429931
-  m_Height: 5.3755503
-  m_Direction: 1
-  m_Center: {x: -0.11133627, y: 0.16966277, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 3.4835122, y: 5.3402762, z: 0.8013192}
+  m_Center: {x: -0.07906133, y: 0.21779558, z: 0.049703553}

@@ -17,6 +17,6 @@ public class ScrollView : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AI.instance.AskChatGPT(contentText.text);
+        //AI.instance.AskChatGPT(contentText.text);
     }
 }

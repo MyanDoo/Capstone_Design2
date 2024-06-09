@@ -1,0 +1,574 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1717496126570098, "dur": 1746426, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496126570309, "dur": 8904, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496126579215, "dur": 32305, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496126611592, "dur": 1355250, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496127966844, "dur": 335380, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496128302226, "dur": 14296, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496128317766, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1717496127572064, "dur": 374467, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717496127572897, "dur": 49885, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717496127931495, "dur": 4608, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717496127936105, "dur": 10420, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717496127936818, "dur": 8775, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717496127951301, "dur": 1147, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717496127950317, "dur": 2152, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496128317913, "dur": 231, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717496128005943, "dur":1244, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128007193, "dur":48, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717496128007253, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717496128007268, "dur":367, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717496128007669, "dur":565, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128008234, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291685, "dur":236, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291921, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291963, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291966, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291979, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291981, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291987, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291989, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291993, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291994, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128291999, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292001, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292009, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292011, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292015, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292016, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292022, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292023, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292027, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292029, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292034, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292035, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292039, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292041, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292047, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292057, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128292077, "dur":1775, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717496128007894, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128008254, "dur":5351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128013611, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717496128013864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128023660, "dur":8943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1717496128032666, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717496128032725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128032731, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff.exe" }}
+,{ "pid":12345, "tid":1, "ts":1717496128034061, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1717496128034184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128034451, "dur":42787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1717496128077304, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128077365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128077373, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128080051, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128080222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128080229, "dur":7619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128087923, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128087994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128088002, "dur":15759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128103818, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128103908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128103917, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128107502, "dur":52828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128160333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128160340, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717496128161944, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128161998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128162005, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128163603, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128163650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128163656, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128166791, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128166837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128166842, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128169317, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717496128169368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128169375, "dur":9099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717496128178531, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1717496128178691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128178699, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1717496128179851, "dur":7523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1717496128187382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128187393, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1717496128188695, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717496128188751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128188759, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1717496128191576, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1717496128191624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128191629, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1717496128192790, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1717496128192837, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128192845, "dur":5618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1717496128198521, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128198582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717496128198589, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1717496128201123, "dur":90562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128007849, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128008241, "dur":5361, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128013611, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1717496128013614, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128013766, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1717496128013769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128014638, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1717496128016764, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717496128016865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128017344, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717496128018459, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1717496128018661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128018666, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1717496128020012, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1717496128020142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128020148, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1717496128021491, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128021582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128021778, "dur":49602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128071420, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128071458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128071462, "dur":7724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128079262, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128079336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128079342, "dur":8036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128087468, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128087570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128087576, "dur":15386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128103060, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128103192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128103198, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128106751, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128106815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128106821, "dur":7153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128114042, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128114110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128114118, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128116646, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128116713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128116720, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128119472, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128119534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128119540, "dur":6279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128125868, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128125915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128125920, "dur":11787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717496128137755, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1717496128137808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128137892, "dur":4633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1717496128142582, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717496128142666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128142674, "dur":8745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717496128151469, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":2, "ts":1717496128151516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128151524, "dur":6030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":2, "ts":1717496128157605, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717496128157655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128157662, "dur":9458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717496128167169, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717496128167214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128167218, "dur":22960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717496128190233, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1717496128190289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128190296, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1717496128192965, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1717496128193010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128193014, "dur":6376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1717496128199442, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1717496128199501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717496128199506, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1717496128202098, "dur":89584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128007883, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128008250, "dur":5357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128013615, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717496128013918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128035092, "dur":14854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1717496128049989, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128050039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128050044, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128053427, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128053514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128053520, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128055186, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128055247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128055252, "dur":12279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128067597, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128067673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128067707, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128070244, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128070295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128070301, "dur":10160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128080515, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128080569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128080576, "dur":8008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128088657, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128088711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128088716, "dur":15898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128104717, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128104789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128104795, "dur":4679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128109556, "dur":94011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128203571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717496128203581, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717496128205346, "dur":86347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128007877, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128008244, "dur":5369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128013614, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717496128013829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128015518, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1717496128016857, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1717496128016949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128017198, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1717496128018450, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1717496128018552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128018630, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1717496128019849, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717496128019970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128019976, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1717496128021454, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128021556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128021752, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128024217, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1717496128024317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128024320, "dur":28276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1717496128052644, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128052686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128052690, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128054198, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128054245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128054249, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128055904, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128055960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128055964, "dur":12602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128068646, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128068714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128068720, "dur":8902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128077705, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128077787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128077795, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128081204, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128081281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128081287, "dur":20868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128102218, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128102289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128102294, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128105576, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128105630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128105636, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128109930, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128110011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128110023, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128114122, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128114189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128114197, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128116766, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128116825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128116832, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128119232, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128119291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128119297, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128122067, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128122117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128122123, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128125612, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128125665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128125671, "dur":10268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128135995, "dur":76311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128212311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717496128212322, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717496128213522, "dur":78178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128007913, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128008257, "dur":5361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128013618, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717496128013996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128044800, "dur":23192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717496128068091, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128068159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128068166, "dur":9103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128077326, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128077382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128077388, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128080889, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128080949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128080956, "dur":20789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128101814, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128101885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128101894, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128105143, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128105219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128105228, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128109828, "dur":180591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128290425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717496128290434, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717496128291662, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1717496128291664, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128007941, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128008261, "dur":5355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128013618, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1717496128013986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128040134, "dur":16440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1717496128056665, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128056729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128056735, "dur":12953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128069736, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128069783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128069790, "dur":9240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128079102, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128079166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128079174, "dur":8003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128087232, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128087360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128087370, "dur":16140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128103566, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128103624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128103630, "dur":4231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128107911, "dur":111680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128219599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717496128219611, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717496128220873, "dur":70816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128007964, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128008265, "dur":5338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128013611, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1717496128013923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128039443, "dur":13125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1717496128052616, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128052658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128052662, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128054056, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128054119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128054125, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128055843, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128055911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128055917, "dur":12604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128068582, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128068657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128068663, "dur":9334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128078045, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128078097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128078103, "dur":8360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128086512, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128086585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128086593, "dur":16013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128102669, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128102728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128102734, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128106012, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128106074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128106080, "dur":4618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128110780, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128110837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128110846, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128114361, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128114420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128114426, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128116968, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128117022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128117027, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128120439, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128120490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128120496, "dur":6039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128126579, "dur":81570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/DOTween.Modules.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128208153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717496128208163, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/DOTween.Modules.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717496128209772, "dur":81926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128007982, "dur":287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128008269, "dur":5343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128013614, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1717496128013900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128027114, "dur":10258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1717496128037433, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128037493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128037684, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128038576, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128038615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128038665, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128039851, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128039901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128039906, "dur":13171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128053128, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128053181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128053188, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128054836, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128054881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128054885, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128056523, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128056585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128056590, "dur":13394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128070040, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128070103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128070108, "dur":9522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128079686, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128079752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128079758, "dur":8254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128088083, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128088142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128088148, "dur":15790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128104004, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128104079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128104084, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128108349, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128108412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128108419, "dur":10249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128118732, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128118782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128118788, "dur":5151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128123987, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128124035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128124042, "dur":28446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717496128152532, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717496128152579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128152585, "dur":7450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717496128160084, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717496128160143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128160151, "dur":6250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717496128166453, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717496128166503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128166511, "dur":22720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717496128189289, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1717496128189344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128189352, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1717496128192211, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1717496128192256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128192260, "dur":6070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1717496128198386, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1717496128198442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717496128198449, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1717496128201020, "dur":90663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717496128007999, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717496128008275, "dur":5340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717496128013615, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717496128014003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717496128045252, "dur":22773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1717496128068114, "dur":137544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717496128205661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717496128205670, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717496128207017, "dur":84675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128008030, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128008278, "dur":5340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128013619, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1717496128013975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128039735, "dur":16955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1717496128056775, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128056847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128056853, "dur":12933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128069847, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128069980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128069986, "dur":9968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128080014, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128080142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128080223, "dur":7708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128088001, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128088071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128088079, "dur":15843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128104012, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128104093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128104103, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128108110, "dur":100287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128208400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717496128208433, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717496128210244, "dur":81447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128008038, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128008282, "dur":5327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128013610, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1717496128013855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128019535, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1717496128020708, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1717496128020792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128020797, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1717496128022662, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128022750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128022753, "dur":79381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128102195, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128102269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128102278, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128105254, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128105311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128105318, "dur":10054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128115476, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128115572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128115581, "dur":5505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128121136, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128121295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128121301, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128124616, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128124687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128124692, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128127055, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128127102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128127107, "dur":12227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":11, "ts":1717496128139380, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1717496128139432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128139440, "dur":16678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1717496128156178, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128156228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128156237, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128158006, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128158063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128158068, "dur":4132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128162252, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1717496128162307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128162312, "dur":5728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1717496128168090, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128168142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128168147, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128171107, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128171162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128171171, "dur":20174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1717496128191393, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1717496128191465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128191470, "dur":6129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1717496128197649, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1717496128197696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128197705, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1717496128200430, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1717496128200591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1717496128200595, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1717496128202314, "dur":89374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128008072, "dur":214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128008286, "dur":5325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128013611, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717496128013917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128030457, "dur":17571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1717496128048071, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128048118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128048123, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128053635, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128053696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128053700, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128055590, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128055689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128055695, "dur":12368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128068144, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128068221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128068226, "dur":9375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128077657, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128077776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128077782, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128081489, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128081541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128081555, "dur":20292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128101907, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128101973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128101978, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128105504, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128105577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128105582, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128109880, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128109941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128109955, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128114529, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128114601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128114606, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128118385, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128118519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128118525, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128122249, "dur":77203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/OpenAI.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128199479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1717496128199488, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gksql/OneDrive/ /a/Debuff_Data/Managed/OpenAI.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1717496128202088, "dur":89599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717496128295139, "dur":1854, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1717496128318244, "dur": 6121, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717496128317743, "dur": 6653, "ph": "X", "name": "Write chrome-trace events", "args": {} },
