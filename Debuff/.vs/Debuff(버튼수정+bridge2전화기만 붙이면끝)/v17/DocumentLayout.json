@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff(\uBC84\uD2BC\uC218\uC815\u002Bbridge2\uC804\uD654\uAE30\uB9CC \uBD99\uC774\uBA74\uB05D)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21ACA7FE-1901-C929-A807-464DD81DC5E2}|Assembly-CSharp.csproj|c:\\users\\gksql\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\debuff(\uBC84\uD2BC\uC218\uC815\u002Bbridge2\uC804\uD654\uAE30\uB9CC \uBD99\uC774\uBA74\uB05D)\\assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21ACA7FE-1901-C929-A807-464DD81DC5E2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AI.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff(\uBC84\uD2BC\uC218\uC815\u002Bbridge2\uC804\uD654\uAE30\uB9CC \uBD99\uC774\uBA74\uB05D)\\Assets\\Scripts\\AI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff(\uBC84\uD2BC\uC218\uC815\u002Bbridge2\uC804\uD654\uAE30\uB9CC \uBD99\uC774\uBA74\uB05D)\\Assets\\Scripts\\AI.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\AI.cs*",
+              "ViewState": "AQIAAE0AAAAAAAAAAAA1wAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:04:12.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

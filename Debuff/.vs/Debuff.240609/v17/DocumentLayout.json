@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|c:\\users\\gksql\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\debuff.240609\\assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\charactersoundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactersoundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map2_bridge\\obj_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map2_bridge\\obj_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map1_city\\obj_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map1_city\\obj_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map1_city\\obj_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map1_city\\obj_door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map1_city\\obj_streetlamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map1_city\\obj_streetlamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map1_city\\obj_water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map1_city\\obj_water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map1_city\\obj_board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map1_city\\obj_board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map2_bridge\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map2_bridge\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map2_bridge\\obj_bridge2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map2_bridge\\obj_bridge2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map2_oldcity\\oldcityobj_board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map2_oldcity\\oldcityobj_board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map2_oldcity\\obj_ammonia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map2_oldcity\\obj_ammonia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\map2_oldcity\\oldcityobj_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map2_oldcity\\oldcityobj_wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\tunnelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tunnelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\chatting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chatting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\p_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\p_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\assets\\scripts\\playsoundonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9EFF0-58C4-E4A0-5A83-B94201989EEE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playsoundonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Obj_Bridge.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_Bridge\\Obj_Bridge.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map2_Bridge\\Obj_Bridge.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_Bridge\\Obj_Bridge.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map2_Bridge\\Obj_Bridge.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAHEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:06:41.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Obj_wall.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_wall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map1_City\\Obj_wall.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_wall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map1_City\\Obj_wall.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAuwFkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:02:49.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Obj_streetlamp.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_streetlamp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map1_City\\Obj_streetlamp.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_streetlamp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map1_City\\Obj_streetlamp.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAFcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:02:49.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Obj_Door.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map1_City\\Obj_Door.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map1_City\\Obj_Door.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAuwFcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:02:47.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Obj_board.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_board.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map1_City\\Obj_board.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_board.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map1_City\\Obj_board.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAuwFkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:00:48.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Call.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_Bridge\\Call.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map2_Bridge\\Call.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_Bridge\\Call.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map2_Bridge\\Call.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAG4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:49:29.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Obj_Bridge2.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_Bridge\\Obj_Bridge2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map2_Bridge\\Obj_Bridge2.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_Bridge\\Obj_Bridge2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map2_Bridge\\Obj_Bridge2.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAHEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:43:05.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OldCityObj_board.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_OldCity\\OldCityObj_board.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map2_OldCity\\OldCityObj_board.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_OldCity\\OldCityObj_board.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map2_OldCity\\OldCityObj_board.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:40:08.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterSoundController.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\CharacterSoundController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSoundController.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\CharacterSoundController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterSoundController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:46:40.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AI.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\AI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\AI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:05:09.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Obj_ammonia.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_OldCity\\Obj_ammonia.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map2_OldCity\\Obj_ammonia.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_OldCity\\Obj_ammonia.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map2_OldCity\\Obj_ammonia.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAowE8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:40:45.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OldCityObj_wall.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_OldCity\\OldCityObj_wall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map2_OldCity\\OldCityObj_wall.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map2_OldCity\\OldCityObj_wall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map2_OldCity\\OldCityObj_wall.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAAHEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:40:43.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Obj_water.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_water.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Map1_City\\Obj_water.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Map1_City\\Obj_water.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Map1_City\\Obj_water.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAowE8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:21:12.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TunnelScript.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\TunnelScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TunnelScript.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\TunnelScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TunnelScript.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAiwLQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:32:28.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Chatting.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Chatting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chatting.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\Chatting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chatting.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAFcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:31:41.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "P_Move.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\P_Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\P_Move.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\P_Move.cs",
+              "RelativeToolTip": "Assets\\Scripts\\P_Move.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:50:12.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlaySoundOnClick.cs",
+              "DocumentMoniker": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\PlaySoundOnClick.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlaySoundOnClick.cs",
+              "ToolTip": "C:\\Users\\gksql\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Debuff.240609\\Assets\\Scripts\\PlaySoundOnClick.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlaySoundOnClick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:46:58.559Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
